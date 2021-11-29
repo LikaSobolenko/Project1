@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .front {
+            display: grid;
+            grid-template-columns: 4fr 6fr;
+            grid-template-rows: 1fr;
+        }
+
+        .about {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+        }
+
+        .mainfocus {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        .mainfocus__items_h1 {
+            grid-area: 1/1/2/5;
+        }
+
+        .ourprojects {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <article class="front">
+        <div class="front__items">
+            PROJECT <div class="front__items_lorum"> Lorum </div>
+            <div><a href="#"><img src="./assets/images/Frame 9.png" /></a>
+
+                <a href="#"><img src="./assets/images/Frame 8.png" /></a></div>
+            <div>01/02</div>
+        </div>
+
+        <div class="front__items">
+            <img src="./assets/images/Rectangle 6.png" height="500px" /> </div>
+    </article>
+
+    <article class="about">
+        <div class="about__items">
+            <div>
+                <img src="./assets/images/Rectangle 8.png">
+                <img src="./assets/images/Rectangle 9.png">
+                <img src="./assets/images/Rectangle 10.png"></div>
+        </div>
+        <div class="about__items">
+            <h3>About</h3>
+            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                leap
+                into
+                electronic typesetting, remaining essentially unchanged.</div>
+        </div>
+    </article>
+
+    <div class="mainfocus">
+        <h1 class="mainfocus__items_h1">Main Focus/Mission Statement</h1>
+        <div class="mainfocus__items">1</div>
+        <div class="mainfocus__items">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis
+            placerat,
+            magna mauris porttitor tortor, a auctor est felis ut nisl.</div>
+        <div class="mainfocus__items">2</div>
+        <div class="mainfocus__items">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis
+            placerat.
+        </div>
+    </div>
+
+    <h1 class="ourprojects__items"> Our Projects</h1>
+    <article class="ourprojects">
+        <div class="ourprojects__items_sampleproject"><img src="./assets/images/Rectangle 12.png" /></div>
+        <div class="ourprojects__items">
+            <img src="./assets/images/image 15.png" />
+        </div>
+        <div class="ourprojects__items">
+            <img src="./assets/images/image 16.png" />
+        </div>
+        <div class="ourprojects__items">
+            <img src="./assets/images/image 17.png" />
+        </div>
+        <div class="ourprojects__items">
+            <img src="./assets/images/image 18.png" />
+        </div>
+    </article>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/styles/normalizer.css">
+    <title>Document</title>
+
+    <style>
+        body {
+            max-width: 1280px;
+            margin: auto;
+        }
+
+        .header {
+            display: grid;
+            grid-template-columns: 1fr 5fr;
+            grid-template-rows: auto;
+
+        }
+
+        .logo {
+            margin-left: 20px;
+        }
+
+        .header__items {
+            margin-top: 20px;
+            margin-left: 10%;
+
+        }
+
+        .nav__main {
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+
+        .nav__items {
+            margin-left: 5%;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__items logo" href="sample.html"><img src="./assets/images/logo.png" width="70" height="43.71"
+                alt="Пример"></a>
+        <nav class="header__items nav">
+            <a href="main.html" class="nav__items nav__main">MAIN</a>
+            <a href="gallery.html" class="nav__items">GALLERY</a>
+            <a href="projects.html" class="nav__items">PROJECTS</a>
+            <a href="certification.html" class="nav__items">CERTIFICATIONS</a>
+            <a href="contacts.html" class="nav__items">CONTACTS</a>
+        </nav>
+    </header>
+
+</body>
+
+</html>
